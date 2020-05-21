@@ -1,13 +1,13 @@
-
-class ListNode{
-	int val;
-	ListNode next;
-	ListNode(int x){
-		this.val=x;
-	}
-
-}
 public class ListNodeMerge {
+
+	static class ListNode{
+		int val;
+		ListNode next;
+		ListNode(int x){
+			this.val=x;
+		}
+
+	}
 
 	public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		ListNode l3 = new ListNode(-1),ans=l3;
