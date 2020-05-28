@@ -8,7 +8,7 @@ public class ThreeSum {
 	public static List<List<Integer>> threeSum(int[] nums) {
 		Arrays.sort(nums);
 		List<List<Integer>> ans=new ArrayList<List<Integer>>();
-		Set<String> set = new HashSet<>();
+		Set<String> set = new HashSet<String>();
 		for (int i = 0; i < nums.length-2; i++) {
 			int x=nums[i];
 			int start= i+1;
